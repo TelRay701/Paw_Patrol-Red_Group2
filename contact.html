@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="footer.css" />
+    <script src="script.js"></script>
+
+    <title>Paw Patrol</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar" id="topnavbar">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="events.html">Events</a>
+          <a href="donate.html">Donate</a>
+          <a href="contact.html" class="active">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+
+    <div class="title"></div>
+    <main>
+      <p class="contact">
+        Please let us know if there are any questions you may have about our organization. We thrive to be accessible and active as much as possible so the responce time will be within 2 hours. Also give feedback on how we can inprove our efforts in saving animals.
+      </p>
+      <div class="container">
+        <div class="cardcontainer">
+          <div class="cardwrap">
+            <div class="card">
+              <form action="#">
+          <h1>Contact Us</h1>
+          <label for="fname">First Name:</label>
+          <input class="text" id="fname" type="text" />
+          <br />
+          <label for="lname">Last Name:</label>
+          <input class="text" id="lname" type="text" />
+          <br />
+          <label for="e-mail">Email:</label>
+          <input class="text" id="e-mail" type="email" />
+          <br />
+          <label for="phone">Phone Number:</label>
+          <input class="text" id="phone" type="tel" pattern="[1-9]{3}-[0-9]{3}-[0-9]{4}" />
+          <br />
+          <label for="prefcon">Preffered Contact:</label>
+          <select id="prefcon">
+            <option value="na" selected>~</option>
+            <option value="call">Phone Call</option>
+            <option value="text">Text Message</option>
+            <option value="email">E Mail</option></select
+          ><br />
+
+          <label for="text-area"></label>
+          <textarea
+            id="text-area"
+            cols="30"
+            rows="10"
+            placeholder="Ask us some questions, Give some feedback, or just leave us a message 🤗 "
+          ></textarea
+          ><br />
+          <button>Submit</button>
+        </form>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      
+    </main>
+    <div class="grow"></div>
+    <footer>
+        <div class="footerimg">
+          <a href="http://www.twitter.com"
+            ><img src="Images/twitter.svg" alt="twitter"
+          /></a>
+        </div>
+        <div class="footerimg">
+          <a href="http://www.linkedin.com"
+            ><img src="Images/linkedin.png" alt="twitter"
+          /></a>
+        </div>
+        <div class="footerimg">
+          <a href="http://www.facebook.com"
+            ><img src="Images/fbook.png" alt="twitter"
+          /></a>
+        </div>
+        <div class="footerimg">
+          <a href="http://www.instagram.com"
+            ><img src="Images/instagram.png" alt="twitter"
+          /></a>
+        </div>
+      </footer>
+  </body>
+</html>
